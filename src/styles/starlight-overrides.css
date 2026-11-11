@@ -43,6 +43,11 @@
   --sl-border-radius-lg: var(--radius-lg);
 }
 
+/* prevent whitespace from showing on docs page when .is-hidden applied to nav */
+.page > .header {
+  display: contents;
+}
+
 /* ── Prose typography ─────────────────────────────────────────────── */
 .sl-markdown-content {
   font-size: 1rem;
